@@ -126,7 +126,7 @@ export function LoginPage() {
                   <Input
                     id="register-email"
                     type="email"
-                    placeholder="student@university.edu"
+                    placeholder="student@mymail.mssu.edu"
                     value={registerEmail}
                     onChange={(e) => setRegisterEmail(e.target.value)}
                     aria-required="true"
